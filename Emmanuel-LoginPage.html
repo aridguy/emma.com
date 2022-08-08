@@ -54,6 +54,7 @@
         outline: none;
         border: none;
         text-transform: uppercase;
+        cursor: pointer;
     }
     .register{
         display: none;
@@ -83,10 +84,10 @@
             <form action="#">
                <h2>Happy to see you	&#128513</h2>
                <p>
-                <input type="text" placeholder="Username?">
+                <input type="text" placeholder="Username?" name="lUsername">
                </p>
                <p>
-                <input type="password" placeholder="*********">
+                <input type="password" placeholder="*********" name="lPassword" >
                </p>
                <a href="#" id="showRegister" onclick="showRegister()">Haven't Register Yet? Register Now!</a><br />
                
@@ -98,23 +99,23 @@
             <form action="#">
                 <h2>Welcome </h2>
                 <p>
-                 <input type="text" placeholder="Username?">
+                 <input type="text" placeholder="Username?" name="rUsername" >
                 </p>
                 <p>
-                 <input type="email" placeholder="Email Address">
+                 <input type="email" placeholder="Email Address" name="rEmail" >
                 </p>
                 <p>
-                 <input type="text" list="gender" placeholder="Gender">
+                 <input type="text" list="gender" placeholder="Gender" name="rGender" >
                  <datalist id="gender">
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
                  </datalist>
                 </p>
                 <p>
-                 <input type="password" placeholder="password">
+                 <input type="password" placeholder="password" name="rPassword" >
                 </p>
                 <p>
-                    <input type="password" placeholder="Re- enter password">
+                    <input type="password" placeholder="Re- enter password" name="rSecPassword" >
                    </p>
                 <a href=" " id="showSignin" onclick="showSignin()">Register Already? Sign In!</a><br />
                 
@@ -129,14 +130,12 @@
 <script>
 function showRegister() {
     document.getElementById('login').style.display = "none";
-    document.getElementById('login').style.transition = "3s";
 
     document.getElementById('register').style.display = "block";
 }
 
 function showlogin() {
     document.getElementById('register').style.display = "none";
-    document.getElementById('login').style.transition = "3s";
 
     document.getElementById('login').style.display = "block";
 }
