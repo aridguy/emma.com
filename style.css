@@ -1,0 +1,183 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./1.jpg);
+}
+
+form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logd{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: green;
+    width: 450px;
+    height: 500px;
+    border-radius: 19px;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+}
+
+.head{
+    color: rgb(255, 136, 0);
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
+    margin-top: 20px;
+    position: relative;
+    top: 4%;
+}
+
+input{
+    position: relative;
+    width: 80%;
+    height: 45px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset -4px -4px rgba(131, 211, 248, 0.671);
+    padding: 10px;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.idiv{
+    position: relative;
+    height: 40%;
+    top: 30px;
+}
+
+.bp{
+    text-align: center;
+    margin-top: 38px;
+}
+
+ button{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(255, 136, 0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: aqua;
+    width: 165px;
+    height: 45px;
+}
+
+a{
+    font-size: 20px;
+    color: rgb(255, 136, 0);
+    font-family: cursive;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.lot{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    font-size: 19px;
+}
+
+.copy{
+    margin-top: 112px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* sign up */
+
+.signup{
+    display: none;
+}
+
+.signd{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: green;
+    width: 450px;
+    height: 600px;
+    border-radius: 19px;
+    margin: auto;
+}
+
+.sdiv{
+    position: relative;
+    height: 40%;
+    top: 30px;
+}
+
+.sdiv2{
+    position: relative;
+    height: 10%;
+    top: 120px;
+    bottom: 0;
+    right: 0;
+}
+
+.sbp{
+    position: relative;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.slot{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    font-size: 19px;
+}
+
+.copy2{
+    margin-top: 220px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 700px){
+    .logd{
+        max-width: 80%;
+    }
+
+    .idiv{
+        width: 100%;
+    }
+
+    .head{
+        font-size: 18px;
+    }
+
+    .signd{
+        max-width: 80%;
+    }
+
+    .sdiv{
+        width: 100%;
+    }
+
+    .copy, .copy2{
+        font-size: 9px;
+    }
+}  
